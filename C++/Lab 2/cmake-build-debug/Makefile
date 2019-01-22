@@ -150,6 +150,33 @@ bmi.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab_2.dir/build.make CMakeFiles/Lab_2.dir/bmi.cpp.s
 .PHONY : bmi.cpp.s
 
+homework.o: homework.cpp.o
+
+.PHONY : homework.o
+
+# target to build an object file
+homework.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab_2.dir/build.make CMakeFiles/Lab_2.dir/homework.cpp.o
+.PHONY : homework.cpp.o
+
+homework.i: homework.cpp.i
+
+.PHONY : homework.i
+
+# target to preprocess a source file
+homework.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab_2.dir/build.make CMakeFiles/Lab_2.dir/homework.cpp.i
+.PHONY : homework.cpp.i
+
+homework.s: homework.cpp.s
+
+.PHONY : homework.s
+
+# target to generate assembly for a file
+homework.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab_2.dir/build.make CMakeFiles/Lab_2.dir/homework.cpp.s
+.PHONY : homework.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... bmi.o"
 	@echo "... bmi.i"
 	@echo "... bmi.s"
+	@echo "... homework.o"
+	@echo "... homework.i"
+	@echo "... homework.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
