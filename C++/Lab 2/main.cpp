@@ -4,6 +4,7 @@
 #include <iostream>
 #include "bmi.h"
 #include "rps.h"
+#include "homework.h"
 
 using std::cout;
 using std::endl;

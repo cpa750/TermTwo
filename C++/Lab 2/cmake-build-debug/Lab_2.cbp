@@ -86,6 +86,12 @@
 		<Unit filename="/home/cian/Term Two/C++/Lab 2/bmi.h">
 			<Option target="Lab_2"/>
 		</Unit>
+		<Unit filename="/home/cian/Term Two/C++/Lab 2/homework.cpp">
+			<Option target="Lab_2"/>
+		</Unit>
+		<Unit filename="/home/cian/Term Two/C++/Lab 2/homework.h">
+			<Option target="Lab_2"/>
+		</Unit>
 		<Unit filename="/home/cian/Term Two/C++/Lab 2/main.cpp">
 			<Option target="Lab_2"/>
 		</Unit>

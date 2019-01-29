@@ -4,7 +4,11 @@
 CMakeFiles/Lab_2.dir/bmi.cpp.o: ../bmi.cpp
 CMakeFiles/Lab_2.dir/bmi.cpp.o: ../bmi.h
 
+CMakeFiles/Lab_2.dir/homework.cpp.o: ../homework.cpp
+CMakeFiles/Lab_2.dir/homework.cpp.o: ../homework.h
+
 CMakeFiles/Lab_2.dir/main.cpp.o: ../bmi.h
+CMakeFiles/Lab_2.dir/main.cpp.o: ../homework.h
 CMakeFiles/Lab_2.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Lab_2.dir/main.cpp.o: ../rps.h
 

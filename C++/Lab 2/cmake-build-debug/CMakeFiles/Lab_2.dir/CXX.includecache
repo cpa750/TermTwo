@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/cian/Term Two/C++/Lab 2/rps.cpp
+/home/cian/Term Two/C++/Lab 2/homework.cpp
+homework.h
+/home/cian/Term Two/C++/Lab 2/homework.h
+
+/home/cian/Term Two/C++/Lab 2/homework.h
 iostream
 -
-rps.h
-/home/cian/Term Two/C++/Lab 2/rps.h
-
-/home/cian/Term Two/C++/Lab 2/rps.h
-cstdlib
+unistd.h
 -
 
