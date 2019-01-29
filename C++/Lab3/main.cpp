@@ -4,7 +4,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-/*int main()
+/* This is the code for exercise 1
+int main()
 {
     const int ARRAY_SIZE = 10;
 	int pollution_level[ARRAY_SIZE];
@@ -65,6 +66,7 @@ using std::endl;
 	return 0;
 }*/
 
+/* This is the code for Execise 2
 const int MAXDAYS=6;
 
 // function declaration
@@ -100,4 +102,66 @@ int GetValidPollution(int Day)
     }
     while ((temp < 1) || (temp > 100));
     return temp;
+}*/
+
+struct Simple
+{
+    int Element1;
+    double Element2;
+};
+
+struct Patient {
+    double height;
+    double weight;
+    int age;
+    bool isMale;
+};
+
+double PointlessFunction(Simple ArbitraryParameter);
+
+int main()
+{
+    /*const int ARR_SZ = 4;
+    Simple testArray[ARR_SZ];
+    for (int i = 0; i < ARR_SZ; ++i)
+    {
+        Simple simple { i*2, i*2.5 };
+        testArray[i] = simple;
+    }
+
+    for (auto i : testArray)
+    {
+        cout << "Output of pointless function: " << PointlessFunction(i);
+    }*/
+
+    const int ARR_SZ = 3;
+    Patient pArray[ARR_SZ];
+    for (int i = 0; i < ARR_SZ; ++i)
+    {
+        Patient patient = pArray[i];
+        cout << "Patient " << i << "age: ";
+        cin >> patient.age;
+        cout << "Height (m): ";
+        cin >> patient.height;
+        cout << "Weight (kg): ";
+        cin >> patient.weight;
+        cout << "Male (y/n): ";
+        char temp;
+        cin >> temp;
+        patient.isMale = temp=='y';
+    }
+
+    for (auto i: pArray)
+    {
+        cout << "BMI: " << i.weight / (i.height*i.height) << endl;
+        cout << "Age: " << i.age;
+        cout << "Sex: " << (i.isMale ? "Male" : "Female") << endl;
+    }
+
+    return 0;
+}
+
+double PointlessFunction(Simple ArbitraryParameter)
+{
+    return (ArbitraryParameter.Element1+ArbitraryParameter.Element2);
 }
