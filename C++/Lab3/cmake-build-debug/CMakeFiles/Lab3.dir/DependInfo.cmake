@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cian/Term Two/C++/Lab3/h1.cpp" "/home/cian/Term Two/C++/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/h1.cpp.o"
   "/home/cian/Term Two/C++/Lab3/hquestion4.cpp" "/home/cian/Term Two/C++/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/hquestion4.cpp.o"
+  "/home/cian/Term Two/C++/Lab3/hquestion5.cpp" "/home/cian/Term Two/C++/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/hquestion5.cpp.o"
   "/home/cian/Term Two/C++/Lab3/main.cpp" "/home/cian/Term Two/C++/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

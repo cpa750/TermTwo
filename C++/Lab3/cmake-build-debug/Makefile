@@ -177,6 +177,33 @@ hquestion4.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/hquestion4.cpp.s
 .PHONY : hquestion4.cpp.s
 
+hquestion5.o: hquestion5.cpp.o
+
+.PHONY : hquestion5.o
+
+# target to build an object file
+hquestion5.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/hquestion5.cpp.o
+.PHONY : hquestion5.cpp.o
+
+hquestion5.i: hquestion5.cpp.i
+
+.PHONY : hquestion5.i
+
+# target to preprocess a source file
+hquestion5.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/hquestion5.cpp.i
+.PHONY : hquestion5.cpp.i
+
+hquestion5.s: hquestion5.cpp.s
+
+.PHONY : hquestion5.s
+
+# target to generate assembly for a file
+hquestion5.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/hquestion5.cpp.s
+.PHONY : hquestion5.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... hquestion4.o"
 	@echo "... hquestion4.i"
 	@echo "... hquestion4.s"
+	@echo "... hquestion5.o"
+	@echo "... hquestion5.i"
+	@echo "... hquestion5.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

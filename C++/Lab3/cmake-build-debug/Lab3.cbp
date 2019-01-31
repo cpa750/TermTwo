@@ -92,6 +92,12 @@
 		<Unit filename="/home/cian/Term Two/C++/Lab3/hquestion4.h">
 			<Option target="Lab3"/>
 		</Unit>
+		<Unit filename="/home/cian/Term Two/C++/Lab3/hquestion5.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/home/cian/Term Two/C++/Lab3/hquestion5.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="/home/cian/Term Two/C++/Lab3/main.cpp">
 			<Option target="Lab3"/>
 		</Unit>

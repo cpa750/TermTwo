@@ -1,5 +1,6 @@
 #include <iostream>
 #include "h1.h"
+#include "hquestion5.h"
 
 using std::cout;
 using std::cin;
@@ -160,6 +161,7 @@ int main()
     }*/
 
     funcToCallFromMain();
+    q5::funcToCallFromMain();
 
     return 0;
 }

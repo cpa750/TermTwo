@@ -90,7 +90,7 @@ void funcToCallFromMain()
      * to a module mark (type string) hence the ugly code above
      */
 
-    cout << "Final mark: " << averageMark;
+    cout << "Final mark: " << averageMark << endl;
 }
 
 // Code for problem 2
