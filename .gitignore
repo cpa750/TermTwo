@@ -1,9 +1,9 @@
 # Gitignore for the Term Two repo
 
-Directories
+# Directories
 cmake-build-debug
 
-File and file extensions
+# File and file extensions
 *.xml
 *.o
 *.iml
