@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cian/Term Two/C++/Lab3/h1.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/home/cian/Term Two/C++/Lab3/h1.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="/home/cian/Term Two/C++/Lab3/main.cpp">
 			<Option target="Lab3"/>
 		</Unit>

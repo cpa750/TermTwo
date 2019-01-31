@@ -123,6 +123,33 @@ Lab3/fast:
 	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/build
 .PHONY : Lab3/fast
 
+h1.o: h1.cpp.o
+
+.PHONY : h1.o
+
+# target to build an object file
+h1.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/h1.cpp.o
+.PHONY : h1.cpp.o
+
+h1.i: h1.cpp.i
+
+.PHONY : h1.i
+
+# target to preprocess a source file
+h1.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/h1.cpp.i
+.PHONY : h1.cpp.i
+
+h1.s: h1.cpp.s
+
+.PHONY : h1.s
+
+# target to generate assembly for a file
+h1.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/h1.cpp.s
+.PHONY : h1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab3"
 	@echo "... edit_cache"
+	@echo "... h1.o"
+	@echo "... h1.i"
+	@echo "... h1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

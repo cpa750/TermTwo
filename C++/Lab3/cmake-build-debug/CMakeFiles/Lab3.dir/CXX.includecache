@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/cian/Term Two/C++/Lab3/main.cpp
+/home/cian/Term Two/C++/Lab3/h1.cpp
+h1.h
+/home/cian/Term Two/C++/Lab3/h1.h
+
+/home/cian/Term Two/C++/Lab3/h1.h
+string
+-
 iostream
+-
+vector
 -
 
