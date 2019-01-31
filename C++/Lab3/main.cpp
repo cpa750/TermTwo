@@ -1,4 +1,5 @@
 #include <iostream>
+#include "h1.h"
 
 using std::cout;
 using std::cin;
@@ -134,7 +135,7 @@ int main()
         cout << "Output of pointless function: " << PointlessFunction(i);
     }*/
 
-    const int ARR_SZ = 3;
+    /*const int ARR_SZ = 3;
     Patient pArray[ARR_SZ];
     for (int i = 0; i < ARR_SZ; ++i)
     {
@@ -156,7 +157,9 @@ int main()
         cout << "BMI: " << i.weight / (i.height*i.height) << endl;
         cout << "Age: " << i.age;
         cout << "Sex: " << (i.isMale ? "Male" : "Female") << endl;
-    }
+    }*/
+
+    funcToCallFromMain();
 
     return 0;
 }
