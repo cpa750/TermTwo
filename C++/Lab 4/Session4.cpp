@@ -1,16 +1,27 @@
 // Session4.cpp : Defines the entry point for the console application.
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
 
 const int NMAX =10;
 
 int main()
 {
-	double Numbers[NMAX] = {31.2, 29.7, 53.5, 69.0, 23.7, 71.8, 49.3, 52.9, 51.3, 57.1};
+	double Numbers[NMAX] = {};
 	int counter {0};
 	int swapCounter {0};
-
+    ifstream file("../array.txt");
+    if (!file)
+    {
+        cout << "File could not be opened" << endl;
+        exit(-1);
+    }
+    for (int i {0}; i < NMAX; ++i)
+    {
+        file >> Numbers[i];
+    }
+    file.close();
 	// note this top counter, i, counts down
 	for (int i=NMAX-1; i>0; i--)
 	{
@@ -39,6 +50,13 @@ int main()
 	cout << "Counter: " << counter << endl;
 	cout << "Swap Counter: " << swapCounter << endl;
 	//Display the values of the counter after the whole sort
+
+	ofstream outFile("../sorted.txt");
+	for (double i: Numbers)
+    {
+	    outFile << i << " ";
+    }
+
 	return 0;
 }
 

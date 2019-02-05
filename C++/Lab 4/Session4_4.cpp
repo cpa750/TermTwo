@@ -1,17 +1,14 @@
-//Basic file input AND output
-
-#include "stdafx.h"
 #include <iostream>
 #include <fstream> //note the need to include the file handling library
 using namespace std;
 
-const int PINLength =4;
+const int PINLength = 5;
 int main()
 {
 	int PIN[PINLength];
 	int counter=0;
-	ifstream myfile("Test.txt"); //for input ie file reading
-	ofstream myinverted("TestInvert.txt"); //for output ie file writing
+	ifstream myfile("../test2.txt"); //for input ie file reading
+	ofstream myinverted("../TestInvert2.txt"); //for output ie file writing
 	
 	if ((!myfile)||(!myinverted))
 	{

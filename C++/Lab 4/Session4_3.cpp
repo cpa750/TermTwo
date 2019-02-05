@@ -2,13 +2,13 @@
 #include <fstream> //note the need to include the file handling library
 using namespace std; 
 
-const int PINLength =4; //this is a GLOBAL constant because it is outside main function
+const int PINLength = 5; //this is a GLOBAL constant because it is outside main function
 
 int main()
 {
 	int PIN[PINLength];
 	int counter=0;
-	ifstream myfile("../test.txt");
+	ifstream myfile("../test2.txt");
 	
 	if (!myfile)
 	{
@@ -20,7 +20,7 @@ int main()
 	while (counter<PINLength)
 	{
 		myfile>>PIN[counter];
-		counter++;
+		++counter;
 	}
 	myfile.close(); //not actually necessary, but tidy
 

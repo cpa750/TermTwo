@@ -1,6 +1,3 @@
-// Description: strings and manipulation
-
-#include "stdafx.h"
 #include <iostream>
 #include <fstream>
 #include <string>    //NOTE the extra library
@@ -12,15 +9,20 @@ int main()
 	string Surname;
 	string Fullname;
 	
-	ifstream namefile("name.txt");
+	ifstream namefile("../Name.txt");
 	if (!namefile)
 	{
 		cout<<"Oh dear, your file could not be opened";
 		exit(1); //an error code to denote what has gone wrong
 	}
 	namefile>>Forename>>Surname;
+	namefile.close();
 
-	//add code here that combines names into fullname so that it displays the name correctly
+	Fullname = Forename + " " + Surname;
+
+	ofstream outfile("../reversenames.txt");
+	outfile << Surname << ' ' << Forename;
+	outfile.close();
 
 	cout<<Forename<<endl;
 	cout<<Surname<<endl;
