@@ -1,7 +1,3 @@
-// Session5_1.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -35,7 +31,7 @@ int main()
 		{
 			Student temp;
 			// Compare 2 values - increment a counter here
-			if (MyClass[j].ID>MyClass[j+1].ID)
+			if (MyClass[j].Mark<MyClass[j+1].Mark)
 			{
 				temp=MyClass[j];
 				MyClass[j]= MyClass[j+1];
@@ -47,10 +43,10 @@ int main()
 	}
 
 	// display the sorted array:
-	cout<<"ARRAY CONTENTS SORTED, IMPLEMENTATION2"<<endl;
+	cout << "ARRAY CONTENTS SORTED, IMPLEMENTATION2" << endl;
 	for (int i=0; i<NMAX; i++)
 	{
-		cout<<MyClass[i].ID<<endl;
+		cout << MyClass[i].Mark << endl;
 	}
 	//Display the values of the counter after the whole sort
 	return 0;

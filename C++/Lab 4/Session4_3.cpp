@@ -1,7 +1,3 @@
-
-// Description:Basic file reading - the 'hello world' of file handling
-
-#include "stdafx.h"
 #include <iostream>
 #include <fstream> //note the need to include the file handling library
 using namespace std; 
@@ -12,7 +8,7 @@ int main()
 {
 	int PIN[PINLength];
 	int counter=0;
-	ifstream myfile("Test.txt");
+	ifstream myfile("../test.txt");
 	
 	if (!myfile)
 	{
