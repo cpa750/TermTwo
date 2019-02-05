@@ -27,18 +27,6 @@ string calculateAverageGrade(vector<double> grades)
     else return "Fail";
 }
 
-double getMinVal(vector<double> arr)
-{
-    double minVal = arr.front();
-
-    for (double i: arr)
-    {
-        if (i > minVal) minVal = i;
-    }
-
-    return minVal;
-}
-
 vector<double> getMarksFromUser(int markCount)
 {
     vector<double> marks;
@@ -61,7 +49,7 @@ vector<int> getReferredModuleIndices(vector<double> grades)
         /* This appends the 'index' of the referred module to the new vector
          * if the module grade is below 35.
         */
-        if (grades[i] > 35) referredModuleIndices.push_back(i);
+        if (grades[i] < 35) referredModuleIndices.push_back(i);
     }
 
     return referredModuleIndices;
@@ -77,28 +65,39 @@ void funcToCallFromMain()
      */
 
     int numOfMarks;
-    cout << "Enter the number of marks :";
+    cout << "Enter the number of marks: ";
     cin >> numOfMarks;
     vector<double> marks = getMarksFromUser(numOfMarks);
     string averageMark = calculateAverageGrade(marks);
-    double minVal = getMinVal(marks);
-    if ( (averageMark == "Fail") && (minVal >= 35) )
+    vector<int> referredModules = getReferredModuleIndices(marks);
+
+    if ( !referredModules.empty() )
     {
-        vector<int> referredModules = getReferredModuleIndices(marks);
         for (int i: referredModules)
         {
-            cout << "Referred in module: " << i << endl;
+            cout << "Referred in module index #" << i << endl;
         }
-        return;
     }
-    cout << "Final mark: " << averageMark;
+
+    vector<int> moduleMarks = getFinalMarkTypeCount(marks);
+    cout << "# of Modules with 1st Mark: " << moduleMarks[0] << endl;
+    cout << "# of Modules with 2i Mark: " << moduleMarks[1] << endl;
+    cout << "# of Modules with 2ii Mark: " << moduleMarks[2] << endl;
+    cout << "# of Modules with 3rd Mark: " << moduleMarks[3] << endl;
+    cout << "# of Modules Failed: " << moduleMarks[4] << endl;
+    /*
+     * There is no good way to convert from a vector index (type int)
+     * to a module mark (type string) hence the ugly code above
+     */
+
+    cout << "Final mark: " << averageMark << endl;
 }
 
 // Code for problem 2
 double getMark()
 {
     int mark = -1;
-    while ( (mark <= 0) || (mark >=100) )
+    while ( (mark < 0) || (mark > 100) )
     {
         cout << "Please enter a valid mark (0-100): ";
         cin >> mark;
@@ -106,5 +105,22 @@ double getMark()
     }
 
     return mark;
+}
+
+// Code for problem 3
+vector<int> getFinalMarkTypeCount(vector<double> marks)
+{
+    vector<int> markTypeCount = { 0, 0, 0, 0, 0 };
+
+    for (double i: marks)
+    {
+        if (i >= 70) ++markTypeCount[0];
+        else if (i >= 60) ++markTypeCount[1];
+        else if (i >= 50) ++markTypeCount[2];
+        else if (i >= 40) ++markTypeCount[3];
+        else ++markTypeCount[4];
+    }
+
+    return markTypeCount;
 }
 

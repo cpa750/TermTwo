@@ -1,7 +1,7 @@
 # Gitignore for the Term Two repo
 
 # Directories
-cmake-build-debug
+cmake-build-debug/
 
 # File and file extensions
 *.xml
