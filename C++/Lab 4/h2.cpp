@@ -35,7 +35,7 @@ void combineFiles(const string& fileneme1, const string& filename2, const string
         else
         {
             outfile << line1substrs.at(0) << " " << line1substrs.at(1) <<
-            line1substrs.at(2) << " " << line2substrs.at(2) << std::endl;
+            " " << line1substrs.at(2) << " " << line2substrs.at(2) << std::endl;
         }
     }
     file1.close();
@@ -56,12 +56,18 @@ vector<string> splitStringByChar(const string& s, char c)
             substring = "";
         }
     }
+    if (substring != "") substrings.push_back(substring);
+    /*
+     * Must push back subtring one last time.
+     * This is to ensure all substrings are returned if
+     * the line does not end in a space.
+     */
     return substrings;
 }
 
 int main()
 {
-
+    combineFiles("../id.txt", "../mark.txt", "../out.txt");
 
     return 0;
 }
