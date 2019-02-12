@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cian/Term Two/C++/Lab 4/h2.cpp
+h2.h
+/home/cian/Term Two/C++/Lab 4/h2.h
+
+/home/cian/Term Two/C++/Lab 4/h2.h
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+
