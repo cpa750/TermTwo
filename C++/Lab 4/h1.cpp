@@ -36,6 +36,27 @@ vector<Student> readStudents(const string& filename)
     return students;
 }
 
+vector<Student> sortStudent(const vector<Student>& students)
+{
+    bool swappedFlag = true;
+
+    while (swappedFlag)
+    {
+        swappedFlag=false; // for this cycle through all the array
+        for (int i {0}; i < students.size()-1; ++i)
+        {
+            Student temp;
+            if (students.at(i) > students.at(i+1))
+            {
+                temp = students.at(i)
+                students[i] = students[i+1];
+                students[i+1]= temp;
+                swappedFlag=true;
+            }
+        }
+    }
+}
+
 int main()
 {
     vector<Student> students {{4600, 45.5}, {1503, 76.0}, {2642, 59.0}, {8880, 37.0}, {5268, 85.0}, {7391, 62.5}};
