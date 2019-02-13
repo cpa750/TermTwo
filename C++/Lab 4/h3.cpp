@@ -83,7 +83,7 @@ vector<string> splitStringByChar(const string& s, char c)
             substring = "";
         }
     }
-    if (substring != "") substrings.push_back(substring);
+    if (substring.empty()) substrings.push_back(substring);
     /*
      * Must push back subtring one last time.
      * This is to ensure all substrings are returned if
