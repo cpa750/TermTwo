@@ -6,16 +6,20 @@
 
 #IncludeRegexTransform: 
 
-/home/cian/Term Two/C++/Lab 4/h2.cpp
-h2.h
-/home/cian/Term Two/C++/Lab 4/h2.h
+/home/cian/Term Two/C++/Lab 4/h3.cpp
+h3.h
+/home/cian/Term Two/C++/Lab 4/h3.h
 
-/home/cian/Term Two/C++/Lab 4/h2.h
+/home/cian/Term Two/C++/Lab 4/h3.h
+array
+-
+exception
+-
 iostream
 -
-string
--
 fstream
+-
+string
 -
 vector
 -

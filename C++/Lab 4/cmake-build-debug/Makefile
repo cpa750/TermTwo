@@ -123,32 +123,32 @@ Lab_4/fast:
 	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/build
 .PHONY : Lab_4/fast
 
-h2.o: h2.cpp.o
+h3.o: h3.cpp.o
 
-.PHONY : h2.o
+.PHONY : h3.o
 
 # target to build an object file
-h2.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/h2.cpp.o
-.PHONY : h2.cpp.o
+h3.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/h3.cpp.o
+.PHONY : h3.cpp.o
 
-h2.i: h2.cpp.i
+h3.i: h3.cpp.i
 
-.PHONY : h2.i
+.PHONY : h3.i
 
 # target to preprocess a source file
-h2.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/h2.cpp.i
-.PHONY : h2.cpp.i
+h3.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/h3.cpp.i
+.PHONY : h3.cpp.i
 
-h2.s: h2.cpp.s
+h3.s: h3.cpp.s
 
-.PHONY : h2.s
+.PHONY : h3.s
 
 # target to generate assembly for a file
-h2.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/h2.cpp.s
-.PHONY : h2.cpp.s
+h3.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab_4.dir/build.make CMakeFiles/Lab_4.dir/h3.cpp.s
+.PHONY : h3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab_4"
 	@echo "... edit_cache"
-	@echo "... h2.o"
-	@echo "... h2.i"
-	@echo "... h2.s"
+	@echo "... h3.o"
+	@echo "... h3.i"
+	@echo "... h3.s"
 .PHONY : help
 
 

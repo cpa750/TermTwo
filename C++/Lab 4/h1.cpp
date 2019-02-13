@@ -7,6 +7,7 @@ using std::ofstream;
 using std::string;
 using std::cout;
 using std::endl;
+using std::iter_swap;
 
 void writeStudents(const vector<Student>& students, const string& filename)
 {
@@ -33,10 +34,12 @@ vector<Student> readStudents(const string& filename)
     }
 
     file.close();
+
+    sortStudents(students);
     return students;
 }
 
-vector<Student> sortStudent(const vector<Student>& students)
+void sortStudents(vector<Student>& students)
 {
     bool swappedFlag = true;
 
@@ -45,13 +48,14 @@ vector<Student> sortStudent(const vector<Student>& students)
         swappedFlag=false; // for this cycle through all the array
         for (int i {0}; i < students.size()-1; ++i)
         {
-            Student temp;
-            if (students.at(i) > students.at(i+1))
+            if (students.at(i).Mark < students.at(i+1).Mark)
             {
-                temp = students.at(i)
-                students[i] = students[i+1];
-                students[i+1]= temp;
-                swappedFlag=true;
+                iter_swap(students.begin()+i, students.begin()+i+1);
+                /*
+                 * Swapping the two elements. iter_swap is a function
+                 * defined in the standard library
+                 */
+                swappedFlag = true;
             }
         }
     }

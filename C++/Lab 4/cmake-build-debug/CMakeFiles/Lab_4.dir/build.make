@@ -57,27 +57,27 @@ include CMakeFiles/Lab_4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab_4.dir/flags.make
 
-CMakeFiles/Lab_4.dir/h2.cpp.o: CMakeFiles/Lab_4.dir/flags.make
-CMakeFiles/Lab_4.dir/h2.cpp.o: ../h2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cian/Term Two/C++/Lab 4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_4.dir/h2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/h2.cpp.o -c "/home/cian/Term Two/C++/Lab 4/h2.cpp"
+CMakeFiles/Lab_4.dir/h3.cpp.o: CMakeFiles/Lab_4.dir/flags.make
+CMakeFiles/Lab_4.dir/h3.cpp.o: ../h3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cian/Term Two/C++/Lab 4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_4.dir/h3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/h3.cpp.o -c "/home/cian/Term Two/C++/Lab 4/h3.cpp"
 
-CMakeFiles/Lab_4.dir/h2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/h2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cian/Term Two/C++/Lab 4/h2.cpp" > CMakeFiles/Lab_4.dir/h2.cpp.i
+CMakeFiles/Lab_4.dir/h3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/h3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cian/Term Two/C++/Lab 4/h3.cpp" > CMakeFiles/Lab_4.dir/h3.cpp.i
 
-CMakeFiles/Lab_4.dir/h2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/h2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cian/Term Two/C++/Lab 4/h2.cpp" -o CMakeFiles/Lab_4.dir/h2.cpp.s
+CMakeFiles/Lab_4.dir/h3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/h3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cian/Term Two/C++/Lab 4/h3.cpp" -o CMakeFiles/Lab_4.dir/h3.cpp.s
 
 # Object files for target Lab_4
 Lab_4_OBJECTS = \
-"CMakeFiles/Lab_4.dir/h2.cpp.o"
+"CMakeFiles/Lab_4.dir/h3.cpp.o"
 
 # External object files for target Lab_4
 Lab_4_EXTERNAL_OBJECTS =
 
-Lab_4: CMakeFiles/Lab_4.dir/h2.cpp.o
+Lab_4: CMakeFiles/Lab_4.dir/h3.cpp.o
 Lab_4: CMakeFiles/Lab_4.dir/build.make
 Lab_4: CMakeFiles/Lab_4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/cian/Term Two/C++/Lab 4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab_4"

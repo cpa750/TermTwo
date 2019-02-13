@@ -4,6 +4,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <algorithm>
 
 using std::vector;
 using std::string;
@@ -16,6 +17,6 @@ struct Student
 
 void writeStudents(const vector<Student>& students, const string& filename);
 vector<Student> readStudents(const string& fileName);
-vector<Student> sortStudents(const vector<Student>& students);
+void sortStudents(vector<Student>& students);
 
 #endif //LAB_4_H1_H
