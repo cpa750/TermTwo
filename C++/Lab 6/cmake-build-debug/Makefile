@@ -123,114 +123,6 @@ Lab_6/fast:
 	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/build
 .PHONY : Lab_6/fast
 
-Session6.o: Session6.cpp.o
-
-.PHONY : Session6.o
-
-# target to build an object file
-Session6.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6.cpp.o
-.PHONY : Session6.cpp.o
-
-Session6.i: Session6.cpp.i
-
-.PHONY : Session6.i
-
-# target to preprocess a source file
-Session6.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6.cpp.i
-.PHONY : Session6.cpp.i
-
-Session6.s: Session6.cpp.s
-
-.PHONY : Session6.s
-
-# target to generate assembly for a file
-Session6.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6.cpp.s
-.PHONY : Session6.cpp.s
-
-Session6_1.o: Session6_1.cpp.o
-
-.PHONY : Session6_1.o
-
-# target to build an object file
-Session6_1.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_1.cpp.o
-.PHONY : Session6_1.cpp.o
-
-Session6_1.i: Session6_1.cpp.i
-
-.PHONY : Session6_1.i
-
-# target to preprocess a source file
-Session6_1.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_1.cpp.i
-.PHONY : Session6_1.cpp.i
-
-Session6_1.s: Session6_1.cpp.s
-
-.PHONY : Session6_1.s
-
-# target to generate assembly for a file
-Session6_1.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_1.cpp.s
-.PHONY : Session6_1.cpp.s
-
-Session6_2.o: Session6_2.cpp.o
-
-.PHONY : Session6_2.o
-
-# target to build an object file
-Session6_2.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_2.cpp.o
-.PHONY : Session6_2.cpp.o
-
-Session6_2.i: Session6_2.cpp.i
-
-.PHONY : Session6_2.i
-
-# target to preprocess a source file
-Session6_2.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_2.cpp.i
-.PHONY : Session6_2.cpp.i
-
-Session6_2.s: Session6_2.cpp.s
-
-.PHONY : Session6_2.s
-
-# target to generate assembly for a file
-Session6_2.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_2.cpp.s
-.PHONY : Session6_2.cpp.s
-
-Session6_3.o: Session6_3.cpp.o
-
-.PHONY : Session6_3.o
-
-# target to build an object file
-Session6_3.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_3.cpp.o
-.PHONY : Session6_3.cpp.o
-
-Session6_3.i: Session6_3.cpp.i
-
-.PHONY : Session6_3.i
-
-# target to preprocess a source file
-Session6_3.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_3.cpp.i
-.PHONY : Session6_3.cpp.i
-
-Session6_3.s: Session6_3.cpp.s
-
-.PHONY : Session6_3.s
-
-# target to generate assembly for a file
-Session6_3.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_3.cpp.s
-.PHONY : Session6_3.cpp.s
-
 Session6_4.o: Session6_4.cpp.o
 
 .PHONY : Session6_4.o
@@ -258,60 +150,6 @@ Session6_4.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_4.cpp.s
 .PHONY : Session6_4.cpp.s
 
-Session6_6.o: Session6_6.cpp.o
-
-.PHONY : Session6_6.o
-
-# target to build an object file
-Session6_6.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_6.cpp.o
-.PHONY : Session6_6.cpp.o
-
-Session6_6.i: Session6_6.cpp.i
-
-.PHONY : Session6_6.i
-
-# target to preprocess a source file
-Session6_6.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_6.cpp.i
-.PHONY : Session6_6.cpp.i
-
-Session6_6.s: Session6_6.cpp.s
-
-.PHONY : Session6_6.s
-
-# target to generate assembly for a file
-Session6_6.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_6.cpp.s
-.PHONY : Session6_6.cpp.s
-
-Session6_7.o: Session6_7.cpp.o
-
-.PHONY : Session6_7.o
-
-# target to build an object file
-Session6_7.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_7.cpp.o
-.PHONY : Session6_7.cpp.o
-
-Session6_7.i: Session6_7.cpp.i
-
-.PHONY : Session6_7.i
-
-# target to preprocess a source file
-Session6_7.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_7.cpp.i
-.PHONY : Session6_7.cpp.i
-
-Session6_7.s: Session6_7.cpp.s
-
-.PHONY : Session6_7.s
-
-# target to generate assembly for a file
-Session6_7.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_7.cpp.s
-.PHONY : Session6_7.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -321,27 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab_6"
 	@echo "... edit_cache"
-	@echo "... Session6.o"
-	@echo "... Session6.i"
-	@echo "... Session6.s"
-	@echo "... Session6_1.o"
-	@echo "... Session6_1.i"
-	@echo "... Session6_1.s"
-	@echo "... Session6_2.o"
-	@echo "... Session6_2.i"
-	@echo "... Session6_2.s"
-	@echo "... Session6_3.o"
-	@echo "... Session6_3.i"
-	@echo "... Session6_3.s"
 	@echo "... Session6_4.o"
 	@echo "... Session6_4.i"
 	@echo "... Session6_4.s"
-	@echo "... Session6_6.o"
-	@echo "... Session6_6.i"
-	@echo "... Session6_6.s"
-	@echo "... Session6_7.o"
-	@echo "... Session6_7.i"
-	@echo "... Session6_7.s"
 .PHONY : help
 
 

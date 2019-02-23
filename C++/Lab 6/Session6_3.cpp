@@ -3,7 +3,6 @@
 // reading from file
 //writing to file
 
-#include "stdafx.h"
 #include <iostream>
 #include <iomanip> // only used to tidy up the console output here
 #include <fstream> // added file handling
@@ -27,7 +26,7 @@ int main()
 	Car ListCars[MAXCARS];
 
 	// read cars from file
-	ifstream inFile("cars.txt"); // declare an OBJECT for handling file input and associate it with the cars.txt file
+	ifstream inFile("../cars.txt"); // declare an OBJECT for handling file input and associate it with the cars.txt file
 	if (!inFile)
 	{
 		cout<<"Oh dear, your file is not here"<<endl;
@@ -76,9 +75,15 @@ int main()
 	cout<<"With reg num of "<<ListCars[IndexMostExpensive].Registration<<" and engine size of "<<ListCars[IndexMostExpensive].EngineSize<<endl;
 
 	// now output the information to a file
-	ofstream outFile("Bestcars.txt");
-	outFile<<ListCars[IndexMostExpensive].ModelName<<" "<<ListCars[IndexMostExpensive].Price;
+	ofstream outFile("../Bestcars2.txt");
+	outFile<<ListCars[IndexMostExpensive].ModelName<<" "<<ListCars[IndexMostExpensive].Price << ' ' << ListCars[IndexMostExpensive].Registration;
 	outFile.close();
+
+	ofstream outFile2("../allCars.txt");
+	for (int i {0}; i < MAXCARS; ++i)
+		outFile2 << ListCars[i].Registration << ' ' << ListCars[i].Price << std::endl;
+	outFile2.close();
+
 
 	return 0;
 }

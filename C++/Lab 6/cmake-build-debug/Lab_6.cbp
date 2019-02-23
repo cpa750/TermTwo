@@ -82,25 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
-		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6_1.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
-		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6_2.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
-		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6_3.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
 		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6_4.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
-		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6_6.cpp">
-			<Option target="Lab_6"/>
-		</Unit>
-		<Unit filename="/home/cian/Term Two/C++/Lab 6/Session6_7.cpp">
 			<Option target="Lab_6"/>
 		</Unit>
 		<Unit filename="/home/cian/Term Two/C++/Lab 6/CMakeLists.txt">

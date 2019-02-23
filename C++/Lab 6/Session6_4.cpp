@@ -1,7 +1,6 @@
 // Session6_4.cpp : Defines the entry point for the console application.
 //For you to do...
 
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 

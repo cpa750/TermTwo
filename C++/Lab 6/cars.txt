@@ -3,3 +3,4 @@ Impreza   SUB123    2.5     17737
 Gallardo  LAM80     6.5     201900
 Corsa     AH56XYZ   1.4     7895
 Polo      NG11BNS   1.5     10490
+Fiesta    YR58WZS   1.6     2700

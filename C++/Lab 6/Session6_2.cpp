@@ -2,14 +2,13 @@
 //using struct
 // reading from file
 
-#include "stdafx.h"
 #include <iostream>
 #include <iomanip> // only used to tidy up the console output here
 #include <fstream> // added file handling
 #include <string>
 using namespace std;
 
-const int MAXCARS =5; //Always use this instead of magic numbers in code!
+const int MAXCARS = 6; //Always use this instead of magic numbers in code!
 
 // Note how Car only includes the items for a SINGLE car
 struct Car
@@ -26,7 +25,7 @@ int main()
 	Car ListCars[MAXCARS];
 
 	// read cars from file
-	ifstream inFile("cars.txt"); // declare an OBJECT for handling file input and associate it with the cars.txt file
+	ifstream inFile("../cars.txt"); // declare an OBJECT for handling file input and associate it with the cars.txt file
 	if (!inFile)
 	{
 		cout<<"Oh dear, your file is not here"<<endl;
@@ -43,6 +42,12 @@ int main()
 
 	int IndexMostExpensive;
 	double PriceMostExpensive;
+
+	int indexCheapest = 0;
+	double priceCheapest = ListCars[indexCheapest].Price;
+
+	int indexSmallest = 0;
+	double sizeSmallest = ListCars[indexSmallest].EngineSize;
 
 	// initialise to the details of first in array
 	IndexMostExpensive=0;
@@ -62,10 +67,21 @@ int main()
 		cout<<endl;
 
 		// now find out of this car is the most expensive
-		if (ListCars[i].Price>PriceMostExpensive)
+		if (ListCars[i].Price < priceCheapest)
 		{
-			IndexMostExpensive =i;			//update this index
-			PriceMostExpensive = ListCars[i].Price; //update this price
+			indexCheapest =i;			//update this index
+			priceCheapest = ListCars[i].Price; //update this price
+		}
+		else if (ListCars[i].Price > PriceMostExpensive)
+		{
+			IndexMostExpensive = i;
+			PriceMostExpensive = ListCars[i].Price;
+		}
+
+		if (ListCars[i].EngineSize < sizeSmallest)
+		{
+			indexSmallest = i;
+			sizeSmallest = ListCars[i].EngineSize;
 		}
 	}
 
@@ -74,6 +90,15 @@ int main()
 	cout<<"Most expensive Car is "<<ListCars[IndexMostExpensive].ModelName<<" at a price of "<<ListCars[IndexMostExpensive].Price<<endl;
 	cout<<"With reg num of "<<ListCars[IndexMostExpensive].Registration<<" and engine size of "<<ListCars[IndexMostExpensive].EngineSize<<endl;
 
+	std::cout << '\n';
+
+	cout<<"Cheapest Car is "<<ListCars[indexCheapest].ModelName<<" at a price of "<<ListCars[indexCheapest].Price<<endl;
+	cout<<"With reg num of "<<ListCars[indexCheapest].Registration<<" and engine size of "<<ListCars[indexCheapest].EngineSize<<endl;
+
+	std::cout << '\n';
+
+	cout<<"Smallest Car is "<<ListCars[indexSmallest].ModelName<<" at a price of "<<ListCars[indexSmallest].Price<<endl;
+	cout<<"With reg num of "<<ListCars[indexSmallest].Registration<<" and engine size of "<<ListCars[indexSmallest].EngineSize<<endl;
 	return 0;
 }
 

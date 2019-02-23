@@ -4,13 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cian/Term Two/C++/Lab 6/Session6.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6.cpp.o"
-  "/home/cian/Term Two/C++/Lab 6/Session6_1.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6_1.cpp.o"
-  "/home/cian/Term Two/C++/Lab 6/Session6_2.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6_2.cpp.o"
-  "/home/cian/Term Two/C++/Lab 6/Session6_3.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6_3.cpp.o"
   "/home/cian/Term Two/C++/Lab 6/Session6_4.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6_4.cpp.o"
-  "/home/cian/Term Two/C++/Lab 6/Session6_6.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6_6.cpp.o"
-  "/home/cian/Term Two/C++/Lab 6/Session6_7.cpp" "/home/cian/Term Two/C++/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Session6_7.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
