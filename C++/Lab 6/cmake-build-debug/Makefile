@@ -123,32 +123,32 @@ Lab_6/fast:
 	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/build
 .PHONY : Lab_6/fast
 
-Session6_4.o: Session6_4.cpp.o
+Session6_5.o: Session6_5.cpp.o
 
-.PHONY : Session6_4.o
+.PHONY : Session6_5.o
 
 # target to build an object file
-Session6_4.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_4.cpp.o
-.PHONY : Session6_4.cpp.o
+Session6_5.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_5.cpp.o
+.PHONY : Session6_5.cpp.o
 
-Session6_4.i: Session6_4.cpp.i
+Session6_5.i: Session6_5.cpp.i
 
-.PHONY : Session6_4.i
+.PHONY : Session6_5.i
 
 # target to preprocess a source file
-Session6_4.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_4.cpp.i
-.PHONY : Session6_4.cpp.i
+Session6_5.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_5.cpp.i
+.PHONY : Session6_5.cpp.i
 
-Session6_4.s: Session6_4.cpp.s
+Session6_5.s: Session6_5.cpp.s
 
-.PHONY : Session6_4.s
+.PHONY : Session6_5.s
 
 # target to generate assembly for a file
-Session6_4.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_4.cpp.s
-.PHONY : Session6_4.cpp.s
+Session6_5.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab_6.dir/build.make CMakeFiles/Lab_6.dir/Session6_5.cpp.s
+.PHONY : Session6_5.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab_6"
 	@echo "... edit_cache"
-	@echo "... Session6_4.o"
-	@echo "... Session6_4.i"
-	@echo "... Session6_4.s"
+	@echo "... Session6_5.o"
+	@echo "... Session6_5.i"
+	@echo "... Session6_5.s"
 .PHONY : help
 
 

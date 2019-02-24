@@ -1,18 +1,64 @@
 // Session6_4.cpp : Defines the entry point for the console application.
 //For you to do...
 
+#include <array>
 #include <iostream>
-using namespace std;
+#include <fstream>
+
+using std::cout;
+using std::endl;
 
 const int MAXPLANTS =6; //Always use this instead of magic numbers in code!
 
 int main()
 {
-	string CommonName[MAXPLANTS]	 = {"Bluebell",	"Snowdrop", "TenbyDaffodil", "WinterAconite","DogsToothViolet", "SummerSnowflake"};
-	string LatinName[MAXPLANTS] = {"EndymionNonScripta","GalanthusNivalis",	"NarcissusObvalis",	 "EranthisHyemalis", "ErythroniumDensCanis","LeucojumAestivum"};
-	double Height[MAXPLANTS]	 = {0.3, 0.15, 0.4,	0.1, 0.15, 0.3};
-	double Price[MAXPLANTS]		 = {1.25, 1.55,	3.25,2.0,5.95, 4.50};
+	struct Plant
+	{
+		std::string commonName;
+		std::string latinName;
+		double height;
+		double price;
+	};
 
-	cout<<"Empty program for code to be written"<<endl;
+	Plant a;
+	Plant b;
+
+	const size_t PLANTSZ {2};
+	std::array<Plant, PLANTSZ> plants {a, b};
+
+	std::ifstream inFile("../Plants.txt");
+
+	for (int i {0}; i < PLANTSZ; ++i)
+	{
+		inFile >> plants[i].commonName >> plants[i].latinName >> plants[i].height >> plants[i].price;
+	}
+	// Can't use an iterator here as the values get assigned to the iterator and not the object in the array
+
+	inFile.close();
+
+	double totalPrice {0};
+	double highestPrice {0};
+
+	for (Plant i: plants)
+	{
+		totalPrice += i.price;
+		if (i.price > highestPrice) highestPrice = i.price;
+	}
+
+
+	cout << "Total price: $" << totalPrice;
+
+	std::ofstream outFile("../Summary.txt");
+	std::ofstream outFile2("../Summary2.txt");
+
+	outFile << highestPrice << std::endl << totalPrice;
+	for (Plant i: plants)
+	{
+		outFile2 << i.latinName << ' ' << i.price << std::endl;
+	}
+
+	outFile.close();
+	outFile2.close();
+
 	return 0;
 }
