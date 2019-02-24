@@ -5,5 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Lab_6
-        Session6_7.cpp)
+add_executable(Lab_6 h1.cpp)
