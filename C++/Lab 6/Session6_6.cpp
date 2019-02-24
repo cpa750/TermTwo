@@ -2,8 +2,6 @@
 //using struct
 // reading from file
 
-
-#include "stdafx.h"
 #include <iostream>
 #include <iomanip> // only used to tidy up the console output here
 #include <fstream> // added file handling
@@ -25,7 +23,8 @@ struct Student
 {
 	string Name;
 	int ID;
-	Module ModList[MAXMODULES];	
+	Module ModList[MAXMODULES];
+	double avg {0};
 };
 
 int main()
@@ -34,7 +33,7 @@ int main()
 	Student ListStudents[MAXSTUDENTS];
 
 	// read Students from file
-	ifstream inFile("students.txt"); // declare an OBJECT for handling file input and associate it with the students.txt file
+	ifstream inFile("../Students.txt"); // declare an OBJECT for handling file input and associate it with the students.txt file
 	if (!inFile)
 	{
 		cout<<"Oh dear, your file is not here"<<endl;
@@ -56,7 +55,7 @@ int main()
 
 	// initialise to the details of first in array
 	IndexStudent=0;
-	LowestID = ListStudents[IndexStudent].ID;
+	double highestAvg = ListStudents[IndexStudent].avg;
 
 	// display a header line - note use of \t for tabs to try to line up - not successful, but I'm not bothered 
 	cout<<"Name"<<"\tID"<<endl;
@@ -66,17 +65,31 @@ int main()
 		cout<<setfill(' ')<<setw(10)<<ListStudents[i].ID;
 		cout<<endl;
 
-		// find lowest ID?
-		if (ListStudents[i].ID<LowestID)
+		for (int j{0}; j < MAXMODULES; ++j)
+		{
+			ListStudents[i].avg += ListStudents[i].ModList[j].Mark;
+			std::cout << ListStudents[i].ModList[j].Name << ' '
+			<< ListStudents[i].ModList[j].Mark << std::endl;
+		}
+		ListStudents[i].avg /= MAXMODULES;
+
+		// find lowest ID
+		if (ListStudents[i].avg > highestAvg)
 		{
 			IndexStudent =i;			//update this index
-			LowestID = ListStudents[i].ID; //update this ID
+			highestAvg = ListStudents[i].avg; //update this ID
 		}
 	}
 
-	// gone through all the Students.
-	// now can display details about lowest ID
-	cout<<"Student with lowest ID is "<<ListStudents[IndexStudent].Name<<" with ID of "<<ListStudents[IndexStudent].ID<<endl;
+	std::cout << "Highest avg: " << highestAvg << " from student: "
+	<< ListStudents[IndexStudent].Name << std::endl;
+
+	ofstream outFile("../studentinfo.txt");
+	for (int i {0}; i < MAXSTUDENTS; ++i)
+	{
+		outFile << ListStudents[i].Name << ' '
+		<< ListStudents[i].avg << std::endl;
+	}
 
 	return 0;
 }
