@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cian/Term Two/C++/Lab 7/Session7_1.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+string
+-
+

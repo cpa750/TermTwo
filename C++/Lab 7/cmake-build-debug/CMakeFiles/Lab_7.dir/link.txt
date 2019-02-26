@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Lab_7.dir/Session7_1.cpp.o  -o Lab_7 
