@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/cian/Term Two/C++/Lab 7/." 
+CXX_INCLUDES = -I"/home/cian/TermTwo/C++/Lab 7/." 
 

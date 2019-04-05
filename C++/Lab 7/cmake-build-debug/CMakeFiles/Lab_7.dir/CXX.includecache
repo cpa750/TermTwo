@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/cian/Term Two/C++/Lab 7/Session7_1.cpp
+/home/cian/TermTwo/C++/Lab 7/a2.cpp
+array
+-
 iostream
--
-iomanip
--
-fstream
 -
 string
 -
