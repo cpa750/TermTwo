@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Lab_7 b1.cpp)
+add_executable(Lab_7 a5.cpp)

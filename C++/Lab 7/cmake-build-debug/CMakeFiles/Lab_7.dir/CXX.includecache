@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/cian/TermTwo/C++/Lab 7/b1.cpp
-iostream
+/home/cian/TermTwo/C++/Lab 7/a5.cpp
+array
 -
-random
+iomanip
+-
+iostream
 -
 

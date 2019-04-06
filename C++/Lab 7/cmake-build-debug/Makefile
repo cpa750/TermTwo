@@ -123,32 +123,32 @@ Lab_7/fast:
 	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/build
 .PHONY : Lab_7/fast
 
-b1.o: b1.cpp.o
+a5.o: a5.cpp.o
 
-.PHONY : b1.o
+.PHONY : a5.o
 
 # target to build an object file
-b1.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/b1.cpp.o
-.PHONY : b1.cpp.o
+a5.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/a5.cpp.o
+.PHONY : a5.cpp.o
 
-b1.i: b1.cpp.i
+a5.i: a5.cpp.i
 
-.PHONY : b1.i
+.PHONY : a5.i
 
 # target to preprocess a source file
-b1.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/b1.cpp.i
-.PHONY : b1.cpp.i
+a5.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/a5.cpp.i
+.PHONY : a5.cpp.i
 
-b1.s: b1.cpp.s
+a5.s: a5.cpp.s
 
-.PHONY : b1.s
+.PHONY : a5.s
 
 # target to generate assembly for a file
-b1.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/b1.cpp.s
-.PHONY : b1.cpp.s
+a5.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/a5.cpp.s
+.PHONY : a5.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab_7"
 	@echo "... edit_cache"
-	@echo "... b1.o"
-	@echo "... b1.i"
-	@echo "... b1.s"
+	@echo "... a5.o"
+	@echo "... a5.i"
+	@echo "... a5.s"
 .PHONY : help
 
 
