@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/cian/TermTwo/C++/Lab 7/a4.cpp
+/home/cian/TermTwo/C++/Lab 7/b1.cpp
 iostream
+-
+random
 -
 

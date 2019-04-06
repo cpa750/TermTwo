@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Lab_9.dir/Session9.cpp.o CMakeFiles/Lab_9.dir/Session9_1.cpp.o CMakeFiles/Lab_9.dir/Session9_2.cpp.o CMakeFiles/Lab_9.dir/Session9_3.cpp.o  -o Lab_9 

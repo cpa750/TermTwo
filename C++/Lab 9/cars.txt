@@ -1,0 +1,4 @@
+Fiesta    FH52ABC   1.56    9695
+Impreza   SUB123    2.5     17737
+Gallardo  LAM80     6.5     201900
+Corsa     AH56XYZ   1.4     7895
