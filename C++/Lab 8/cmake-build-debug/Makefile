@@ -48,10 +48,10 @@ RM = /home/cian/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/cian/TermTwo/C++/Lab 7"
+CMAKE_SOURCE_DIR = "/home/cian/TermTwo/C++/Lab 8"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/cian/TermTwo/C++/Lab 7/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/cian/TermTwo/C++/Lab 8/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles" "/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles" "/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab_7
+# Target rules for targets named Lab_8
 
 # Build rule for target.
-Lab_7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lab_7
-.PHONY : Lab_7
+Lab_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab_8
+.PHONY : Lab_8
 
 # fast build rule for target.
-Lab_7/fast:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/build
-.PHONY : Lab_7/fast
+Lab_8/fast:
+	$(MAKE) -f CMakeFiles/Lab_8.dir/build.make CMakeFiles/Lab_8.dir/build
+.PHONY : Lab_8/fast
 
-b1.o: b1.cpp.o
+main.o: main.cpp.o
 
-.PHONY : b1.o
+.PHONY : main.o
 
 # target to build an object file
-b1.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/b1.cpp.o
-.PHONY : b1.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab_8.dir/build.make CMakeFiles/Lab_8.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-b1.i: b1.cpp.i
+main.i: main.cpp.i
 
-.PHONY : b1.i
+.PHONY : main.i
 
 # target to preprocess a source file
-b1.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/b1.cpp.i
-.PHONY : b1.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab_8.dir/build.make CMakeFiles/Lab_8.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-b1.s: b1.cpp.s
+main.s: main.cpp.s
 
-.PHONY : b1.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-b1.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab_7.dir/build.make CMakeFiles/Lab_7.dir/b1.cpp.s
-.PHONY : b1.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab_8.dir/build.make CMakeFiles/Lab_8.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Lab_7"
+	@echo "... Lab_8"
 	@echo "... edit_cache"
-	@echo "... b1.o"
-	@echo "... b1.i"
-	@echo "... b1.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

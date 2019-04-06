@@ -1,0 +1,3 @@
+/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles/Lab_8.dir
+/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles/edit_cache.dir

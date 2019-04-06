@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Lab_7.dir/a5.cpp.o  -o Lab_7 
+/usr/bin/c++  -g   CMakeFiles/Lab_7.dir/b1.cpp.o  -o Lab_7 

@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cian/TermTwo/C++/Lab 7/b1.cpp" "/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles/Lab_7.dir/b1.cpp.o"
+  "/home/cian/TermTwo/C++/Lab 8/main.cpp" "/home/cian/TermTwo/C++/Lab 8/cmake-build-debug/CMakeFiles/Lab_8.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../."
   )
 
 # Targets to which this target links.

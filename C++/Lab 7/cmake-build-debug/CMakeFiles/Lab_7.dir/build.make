@@ -57,27 +57,27 @@ include CMakeFiles/Lab_7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab_7.dir/flags.make
 
-CMakeFiles/Lab_7.dir/a5.cpp.o: CMakeFiles/Lab_7.dir/flags.make
-CMakeFiles/Lab_7.dir/a5.cpp.o: ../a5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_7.dir/a5.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_7.dir/a5.cpp.o -c "/home/cian/TermTwo/C++/Lab 7/a5.cpp"
+CMakeFiles/Lab_7.dir/b1.cpp.o: CMakeFiles/Lab_7.dir/flags.make
+CMakeFiles/Lab_7.dir/b1.cpp.o: ../b1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_7.dir/b1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_7.dir/b1.cpp.o -c "/home/cian/TermTwo/C++/Lab 7/b1.cpp"
 
-CMakeFiles/Lab_7.dir/a5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_7.dir/a5.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cian/TermTwo/C++/Lab 7/a5.cpp" > CMakeFiles/Lab_7.dir/a5.cpp.i
+CMakeFiles/Lab_7.dir/b1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_7.dir/b1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cian/TermTwo/C++/Lab 7/b1.cpp" > CMakeFiles/Lab_7.dir/b1.cpp.i
 
-CMakeFiles/Lab_7.dir/a5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_7.dir/a5.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cian/TermTwo/C++/Lab 7/a5.cpp" -o CMakeFiles/Lab_7.dir/a5.cpp.s
+CMakeFiles/Lab_7.dir/b1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_7.dir/b1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cian/TermTwo/C++/Lab 7/b1.cpp" -o CMakeFiles/Lab_7.dir/b1.cpp.s
 
 # Object files for target Lab_7
 Lab_7_OBJECTS = \
-"CMakeFiles/Lab_7.dir/a5.cpp.o"
+"CMakeFiles/Lab_7.dir/b1.cpp.o"
 
 # External object files for target Lab_7
 Lab_7_EXTERNAL_OBJECTS =
 
-Lab_7: CMakeFiles/Lab_7.dir/a5.cpp.o
+Lab_7: CMakeFiles/Lab_7.dir/b1.cpp.o
 Lab_7: CMakeFiles/Lab_7.dir/build.make
 Lab_7: CMakeFiles/Lab_7.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/cian/TermTwo/C++/Lab 7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab_7"

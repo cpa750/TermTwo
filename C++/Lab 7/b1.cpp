@@ -6,6 +6,8 @@ int getUserGuess();
 
 int main()
 {
+    std::srand(std::time(NULL));
+
     bool correct {false};
     int guesses {0};
     const int num {rand() % 10};
