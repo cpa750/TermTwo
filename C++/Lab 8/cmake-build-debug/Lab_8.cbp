@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cian/TermTwo/C++/Lab 8/main.cpp">
+		<Unit filename="/home/cian/TermTwo/C++/Lab 8/Session8.cpp">
 			<Option target="Lab_8"/>
 		</Unit>
 		<Unit filename="/home/cian/TermTwo/C++/Lab 8/CMakeLists.txt">
